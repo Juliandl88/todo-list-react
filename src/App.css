@@ -1,3 +1,5 @@
+/* Estilos generales */
+
 *{
   padding: 0;
   margin: 0;
@@ -9,22 +11,20 @@ html{
   color: white;
   background-color: #1b1b32;
   font-family: 'lato', sans-serif;
-  margin-top: 40px;
 }
 
-.apliacion-tarea{
+.aplicacion-tareas{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
+/* Estilos título */
+
 .titulo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   padding: 10px;
-  margin: 10px;
   font-weight: 300;
 }
 
@@ -39,4 +39,24 @@ html{
 .logo{
   height: 50px;
   width: 50px;
+}
+
+/* Estilos lista de tareas */
+
+.tareas-lista-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;   
+  margin: 10px;
+  border-radius: 26px;
+}
+
+.titulo-contenedor-tarea{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Lato, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
