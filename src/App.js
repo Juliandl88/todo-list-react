@@ -13,7 +13,7 @@ function App() {
       <Titulo titulo="To-Do List " logo={logo} alt="logo" />
       <div className="aplicacion-tareas">
         <div className="tareas-lista-principal">
-          <h1 className="titulo-contenedor-tarea">Mis tareas</h1>
+          <h1 className="titulo-contenedor-tarea">Lista de tareas</h1>
           <TareaFormulario />
           <Tarea texto="Aprender React" />
         </div>

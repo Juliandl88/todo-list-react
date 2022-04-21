@@ -8,7 +8,7 @@ function TareaFormulario(props){
             <input
             className="tarea-input"
             type="text"
-            placeholder='Escribe una tarea'
+            placeholder='Escribí una tarea'
             name="texto"
             />
             <button className="tarea-boton">Agregar Tarea</button>
