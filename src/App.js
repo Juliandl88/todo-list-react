@@ -1,6 +1,5 @@
-import TareaFormulario from "./componentes/TareaFormulario";
+import ListaDeTareas from "./componentes/ListaDeTareas";
 import Titulo from "./componentes/Titulo";
-import Tarea from "./componentes/Tarea";
 import logo from "./imagenes/logo.png";
 import "./App.css";
 import "./hojas-de-estilo/Tarea.css";
@@ -14,8 +13,7 @@ function App() {
       <div className="aplicacion-tareas">
         <div className="tareas-lista-principal">
           <h1 className="titulo-contenedor-tarea">Lista de tareas</h1>
-          <TareaFormulario />
-          <Tarea texto="Aprender React" />
+            <ListaDeTareas />
         </div>
       </div>
     </div>
