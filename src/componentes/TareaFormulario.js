@@ -14,7 +14,7 @@ function TareaFormulario(props){
 
     const manejarEnvio = e => {
         e.preventDefault();
-        console.log("Enviando formulario...")
+        console.log("Enviando formulario")
 
         const tareaNueva = {
             id: uuidv4(),
@@ -35,7 +35,7 @@ function TareaFormulario(props){
             name="texto"
             onChange={manejarCambio }
             />
-            <button className="tarea-boton">Agregar Tarea</button>
+            <button className="tarea-boton">Agregar tarea</button>
         </form>
     )
 };
