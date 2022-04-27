@@ -14,7 +14,7 @@ function TareaFormulario(props){
 
     const manejarEnvio = e => {
         e.preventDefault();
-        console.log("Enviando formulario")
+        console.log("Enviando formulario...")
 
         const tareaNueva = {
             id: uuidv4(),
@@ -31,7 +31,7 @@ function TareaFormulario(props){
             <input
             className="tarea-input"
             type="text"
-            placeholder='Escribe una tarea'
+            placeholder='Escribí una tarea'
             name="texto"
             onChange={manejarCambio }
             />
