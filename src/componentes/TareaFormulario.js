@@ -31,7 +31,7 @@ function TareaFormulario(props){
             <input
             className="tarea-input"
             type="text"
-            placeholder='Escribe una tarea'
+            placeholder='Escribí una tarea'
             name="texto"
             onChange={manejarCambio }
             />

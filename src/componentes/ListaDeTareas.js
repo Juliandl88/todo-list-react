@@ -43,6 +43,7 @@ function ListaDeTareas() {
             eliminarTarea = {eliminarTarea}
             completarTarea = {completarTarea}
           />
+          
         ))}
       </div>
     </>
