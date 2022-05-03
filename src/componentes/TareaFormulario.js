@@ -35,7 +35,7 @@ function TareaFormulario(props){
             name="texto"
             onChange={manejarCambio }
             />
-            <button className="tarea-boton">Agregar tarea</button>
+            <button className="tarea-boton">Agregar Tarea</button>
         </form>
     )
 };
